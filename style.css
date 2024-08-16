@@ -1,0 +1,427 @@
+/*
+
+    Aboutus Page CSS
+
+*/
+
+#indexbody {
+    background-color: #252327;
+    font-family: Roboto;
+    font-weight: 700px;
+    
+}
+
+.top {
+    display: flex;
+    height: 150px;
+}
+.clock {
+    flex: 1;
+    text-align: center; 
+    color: white;
+}
+#clock
+{
+    font-size: 30px;
+}
+
+
+.logo {
+    width: 158px;
+
+}
+.logoimg {
+    height: 150px;
+}
+.login {
+    color: white;
+    flex: 1;
+    font-size: 25px;
+    text-align: center; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.loginbuttons {
+    margin-left: 385px;
+    width: 50px;
+    cursor:pointer
+}
+
+.loginbuttons:hover
+{
+    opacity: 0.5;
+}
+
+#loginbtn {
+    margin-left: 400px;
+}
+
+
+.nav {
+    margin-top: 20px;
+    padding-top: 37.5px;
+    margin-left: 75px;
+    margin-right: 75px;
+    height: 75px;
+    display: flex;
+    flex: 1;
+    background-color: rgb(56, 54, 54);
+    border-radius: 100px;
+    justify-content: space-around;
+    color:white;
+    font-size: 40px;
+    text-decoration:none;
+    
+}
+
+
+.navbutton {
+    cursor: pointer;
+    
+    
+}
+
+.navbutton:hover
+{
+    opacity:0.5;
+}
+
+.about
+{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    color:white;
+    text-align:center;
+    font-size: 24px;
+}
+
+#lol {
+    opacity: 0;
+    cursor: default;
+}
+
+/*
+    Landing page CSS
+*/
+
+.aboutustext {
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    color:white;
+    text-align:center;
+    font-size: 24px;
+}
+
+
+
+
+/*
+
+    Register/Login/Contact us Page CSS
+
+*/
+
+#registerbody {
+
+    background-color: #252327;
+    font-family: Roboto;
+    font-weight: 700px;
+        
+}
+
+#loginbody {
+    background-color: #252327;
+    font-family: Roboto;
+    font-weight: 700px; 
+}
+
+#contactusbody {
+    background-color: #252327;
+    font-family: Roboto;
+    font-weight: 700px; 
+}
+
+#form {
+    width: 300px;
+    margin: 10vh auto 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 12px;
+    background:whitesmoke
+}
+
+#form h1 {
+    color:black;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width:100%;
+    color:white;
+    background-color: rgb(41,57,194);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-control #bodytext input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 94%;
+    
+}
+
+#bodytext {
+    resize: none;
+}
+
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input  {
+    border-color: #09c372;
+}
+
+.input-control.error input  {
+    border-color: #ff3860;
+}
+
+.input-control textarea:focus {
+    outline: 0;
+}
+
+.input-control.success textarea  {
+    border-color: #09c372;
+}
+
+.input-control.error textarea  {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+#checkboxlabel {
+    position:absolute;
+    margin-top: 3px;
+}
+
+/*
+
+    Programs page CSS
+
+*/
+
+#programsbody {
+    background-color: #252327;
+    font-family: Roboto;
+    font-weight: 700px;
+}
+
+#programstext {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+
+#programs {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#uplo {
+    flex: 1;
+    border-color: gray;
+    border-radius: 10px;
+    border-style: solid;
+    color: white;
+    margin-left: 10px;
+    padding-left: 8px;
+}
+
+#ppl {
+    flex: 1;
+    margin-right: 10px;
+    border-color: gray;
+    border-radius: 10px;
+    border-style: solid;
+    color:white;
+    padding-left: 8px;
+}
+
+#ppl h2 {
+    text-align: center;
+}
+
+#uplo h2 {
+    text-align: center;
+}
+
+#core h2 {
+    text-align: center;
+}
+
+#core {
+    margin-top: 20px;
+    width: 533.5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8px;
+    border-color: gray;
+    border-radius: 10px;
+    border-style: solid;
+    color:white;
+}
+
+#core h3 {
+    text-align: center;
+}
+
+/*
+
+    Supplements page CSS
+
+*/
+
+#supplementsbody {
+    background-color: #252327;
+    font-family: Roboto;
+    font-weight: 700px;
+}
+
+#supplementstext
+{
+    margin-top: 50px;
+    color:white;
+    font-size: 28px;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+
+
+#shoptop {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    width: 500px;
+}
+
+#shoptop h2 {
+    color: white;
+    display: inline-block;
+}
+
+.itemtext {
+    font-size: 14px;
+}
+
+.itempic {
+    width: 500px;
+}
+
+.buybtn {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+  }
+
+  .buybtn:hover {
+    background-color: rgb(245, 205, 3);
+  }
+
+.item {
+    padding: 20px;
+    border: solid;
+    border-color: whitesmoke;
+    border-radius: 30px;
+    margin-right: 40px;
+}
+
+
+#shopbottom {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 40px;
+    width: 500px;
+}
+
+#shopbottom h2 {
+    color: white;
+    display: inline-block;
+}
+
+/*
+
+    Gallery CSS
+
+*/
+#gallerybody {
+    background-color: #252327;
+    font-family: Roboto;
+    font-weight: 700px;
+}
+
+#gallerytext {
+    color:white;
+    font-size: 28px;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.slider {
+    margin:50px auto;
+    width: 50%;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: white;
+    padding: 30px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    margin: 10px auto;
+
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
